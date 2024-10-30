@@ -1,0 +1,94 @@
+#birthDateSelector {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 1.5vw; 
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: gray;
+    box-shadow: none;
+    background-color: white;
+}
+
+.regDiv {
+    display: flex;
+    padding-bottom: 1%;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f6f6fb;
+    margin: 5%;
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+.regPar {
+    font-size: 150%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.grayText {
+    height: 1%;
+    color: grey;
+    font-size: 70%;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flexDivHor {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexDivVert {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex: 1;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.saveButton {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 1.5vw; 
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: gray;
+    box-shadow: none;
+}
+
+.regButton {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 1.6vw;
+    background-color: #2279b4;
+    border-radius: 4px;
+    border:none;
+    color:white;
+    font-weight: bold;
+}
+
+.selectElement {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 1.65vw; 
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: gray;
+    box-shadow: none;
+    background-color: white;
+}
+
+.testLabel {
+    flex: 1;
+}

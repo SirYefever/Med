@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <div id="mainContainer">
+    <div class="div205">
+      <div class="div206">
+        <p class="announcerPar">Создание осмотра</p>
+      </div>
+      <div class="div210">
+        <div class="div206">
+          <div class="div207">
+            <p>NAME</p>
+          </div>
+          <div class="div208">
+            <p>Date</p>
+          </div>
+        </div>
+        <div class="div216">
+          <div class="div215">
+            <a href="aboba.com" class="textAcrossSwitch">Первичный осмотр</a>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <p class="textAcrossSwitch">Повторный осмотр</p>
+        </div>
+        <div class="div217">
+          <p class="grayTextSmall">Дата осмотра</p>
+          <input type="date" class="calendar2" />
+        </div>
+      </div>
+      <div class="div218">
+        <p class="darkBlueHeaderPar">Жалобы</p>
+        <input class="input201">
+      </div>
+      <div class="div218">
+        <p class="darkBlueHeaderPar">Анамнез заболевания</p>
+        <input class="input201">
+      </div>
+      <div class="div219">
+        <p class="darkBlueHeaderPar">Консультация</p>
+        <div class="div216">
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <p class="textAcrossSwitch p201">Требуется консультация</p>
+          <select class="selectColorSize">
+            <option>TestOption1</option>
+            <option>TestOption2</option>
+          </select>
+        </div>
+        <div class="div222">
+          <p class="grayTextSmall">Комментарий</p>
+          <input class="input201">
+        </div>
+        <button class="lightBlueButton button201">🞡 Добавить консультацию </button>
+      </div>
+      <!-- DIAGNOSES -->
+      <div class="div219">
+        <p class="darkBlueHeaderPar">Диагнозы</p>
+        <p>some black text here</p>
+        <p class="grayTextSmall">some small gray text here</p>
+        <div class="div224">
+          <p class="grayTextSmall">Болезни</p>
+          <select class="selectColorSize">
+            <option>TestOption1</option>
+            <option>TestOption2</option>
+          </select>
+          <input class="input203">
+          <div class="div225">
+            <div class="div226">
+              <input type="checkbox">
+              <p>Основной</p>
+            </div>
+            <div class="div226">
+              <input type="checkbox">
+              <p>Сопутствующий</p>
+            </div>
+            <div class="div226">
+              <input type="checkbox">
+              <p>Осложнение</p>
+            </div>
+          </div>
+        </div>
+        <button class="buttonStyle button201">🞡 Добавить диагноз</button>
+      </div>
+      <div class="div219">
+        <p class="darkBlueHeaderPar">Рекомендации по лечению</p>
+        <div class="div227">
+          <input class="input201">
+        </div>
+      </div>
+      <div class="div219">
+        <p class="darkBlueHeaderPar">Заключение</p>
+        <div class="div228">
+          <div class="div229">
+            <p class="grayTextSmall">Заключение</p>
+          <select class="select201">
+            <option>TestOption1</option>
+            <option>TestOption2</option>
+          </select>
+          </div>
+          <div class="div229">
+            <p class="grayTextSmall">Дата следующего визита</p>
+          <input type="date" class="calendar2" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+  <script type="module" src="/src/index/index.ts"></script>
+</body>
+
+</html>

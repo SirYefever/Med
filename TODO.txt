@@ -1,0 +1,2 @@
+1. Change dropdown background in the header.
+2. Manage pathing.

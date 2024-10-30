@@ -1,0 +1,120 @@
+    <div class="mainPatientDiv testBorder">
+      <div class="subMainPatientDiv">
+        <div class="announcer">
+          <div id="div203">
+            <p class="announcerPar">Пациенты</p>
+          </div>
+          <a>Первичный осмотр</a>
+          <div id="div204">
+            <button id="annoucnerButton">
+              <img id="regNewPatientImage" src="./public/resources/registerNewPatient.png">
+            </button>
+          </div>
+        </div>
+        <div id="filterAndSortDiv">
+          <div id="filterAndSortParDiv">
+            <p class="regPar" style="font-size: medium;">Фильтры и сортировка</p>
+          </div>
+          <div class="flexDivHor">
+            <div class="flexDivVert">
+              <p class="grayText">Имя</p>
+              <input class="regInput" placeholder="Иванов Иван Иванович"></input>
+            </div>
+            <div class="flexDivVert">
+              <p class="grayText">Имеющиеся заключения</p>
+              <input class="regInput" placeholder="Выбирите заключения"></input>
+            </div>
+          </div>
+          <div class="div1">
+            <div class="div201">
+              <div class="div2">
+                <div class="dull1"></div>
+                <div class="div4">
+
+                  <div class="div202">
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+                    <p class="textAcrossSwitch">Есть запланированные визиты</p>
+                  </div>
+                  <div class="div202">
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+                    <p class="textAcrossSwitch">Мои пациенты</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="div3">
+                <p id="patientSortingPar">Сортировка пациентов</p>
+                <!-- TODO: add options! -->
+                <select id="patientSortSelector" class="selectElement">
+                  <option>По алфавиту (А-Я)</option>
+                  <option>Женский</option>
+
+                </select>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="patientList">
+          <div class="patientDiv">
+            <p class="patientNamePar">Test Name</p>
+            <div class="patientInfoDiv">
+              <div class="patientPropertyDiv">
+                <p class="patientPropertyNamePar">Email - </p>
+                <p class="patientPropertyPar">testEmail</p>
+              </div>
+              <div class="patientPropertyDiv">
+                <p class="patientPropertyNamePar">Пол - </p>
+                <p class="patientPropertyPar">testSex</p>
+              </div>
+              <div class="patientPropertyDiv">
+                <p class="patientPropertyNamePar">Дата рождения - </p>
+                <p class="patientPropertyPar">01.01.2001</p>
+              </div>
+            </div>
+          </div>
+          <div class="patientDiv">
+            <p class="patientNamePar">Test Name</p>
+            <div class="patientInfoDiv">
+              <div class="patientPropertyDiv">
+                <p class="patientPropertyNamePar">Email - </p>
+                <p class="patientPropertyPar">testEmail</p>
+              </div>
+              <div class="patientPropertyDiv">
+                <p class="patientPropertyNamePar">Пол - </p>
+                <p class="patientPropertyPar">testSex</p>
+              </div>
+              <div class="patientPropertyDiv">
+                <p class="patientPropertyNamePar">Дата рождения - </p>
+                <p class="patientPropertyPar">01.01.2001</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page selector -->
+        <div id="pageSelectorDiv">
+          <div class="pageElementToSelect">
+            <a href="https://aboba.com" class="anchorForPageSelection">
+              <p class="pageNumberDirectionPar">&#60;</p>
+            </a>
+          </div>
+          <div class="pageElementToSelect">
+            <a href="https://aboba.com" class="anchorForPageSelection">
+              <p class="pageNumberPar">1</p>
+            </a>
+          </div>
+          <div class="pageElementToSelect">
+            <a href="https://aboba.com" class="anchorForPageSelection">
+              <p class="pageNumberDirectionPar">&#62;</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
