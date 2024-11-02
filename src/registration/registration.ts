@@ -1,5 +1,3 @@
-
-
 export default await function registrationManager(postLink: string) {
 
     const nameElement = document.querySelector("#nameSelector");

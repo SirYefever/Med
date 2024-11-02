@@ -1,4 +1,3 @@
-// Singleton class
 export default class State {
     private static instance: State;
     private token: string;
